@@ -223,8 +223,9 @@ main {
 
 main .navigation {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 22%;
-          flex: 0 0 22%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 400px;
 }
 
 main .navigation .heading {
@@ -459,9 +460,7 @@ main .navigation .nav-list .submenu-items .list.drop-link.active p::after {
 }
 
 main .showing-panel {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 78%;
-          flex: 0 0 78%;
+  width: 100%;
 }
 
 main .showing-panel .heading {
